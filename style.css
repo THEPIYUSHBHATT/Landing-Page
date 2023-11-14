@@ -15,11 +15,17 @@ body {
   width: 100%;
 }
 
+#main {
+    overflow-x: hidden;
+    background-color: #222;
+}
+
 #page1 {
   height: 100vh;
   width: 100vw;
   background-color: #c4bcb3;
   position: relative;
+  overflow-x: hidden;
 }
 
 #nav {
@@ -173,7 +179,8 @@ body {
 }
 
 #page1 h1{
-    font-size: 650px;
+    font-size: 630px;
+    letter-spacing: -25px;
     font-family: canopee;
     font-weight: 100;
     background-color: #1c1c19;
