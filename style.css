@@ -16,16 +16,16 @@ body {
 }
 
 #main {
-    overflow-x: hidden;
-    background-color: #222;
+  overflow-x: hidden;
+  background-color: #222;
 }
 
 #page1 {
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   background-color: #c4bcb3;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #nav {
@@ -157,39 +157,42 @@ body {
   color: #5f5b5b;
 }
 
-#elem2 h2{
-    font-family: canopee;
-    font-size: 75px;
-    font-weight: 100;
+#elem2 h2 {
+  font-family: canopee;
+  font-size: 75px;
+  font-weight: 100;
 }
 
-#elem2 h3{
-    font-family: domain;
-    font-size: 50px;
-    font-weight: 100;
-    color:#272525;
-    margin: 20px 0;
+#elem2 h3 {
+  font-family: domain;
+  font-size: 50px;
+  font-weight: 100;
+  color: #272525;
+  margin: 20px 0;
 }
 
-#elem2 h6{
-    font-family: domain;
-    font-size: 20px;
-    font-weight: 100;
-    color:#2d2c2c
+#elem2 h6 {
+  font-family: domain;
+  font-size: 20px;
+  font-weight: 100;
+  color: #2d2c2c;
 }
 
-#page1 h1{
-    font-size: 630px;
-    letter-spacing: -25px;
-    font-family: canopee;
-    font-weight: 100;
-    background-color: #1c1c19;
-    color:#c4bcb3;
-    line-height: 600px;
-    width: 96%;
-    margin-left: 2%;
+#page1 h1 {
+  font-size: 630px;
+  letter-spacing: -25px;
+  font-family: canopee;
+  font-weight: 100;
+  background-color: #1c1c19;
+  color: #c4bcb3;
+  line-height: 600px;
+  width: 96%;
+  margin-left: 2%;
 }
 
-#main1{
-
+#page2 {
+  height: 150vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  
 }
